@@ -155,7 +155,7 @@ elif select == "Upload & Modify":
             with col_2:
                 modified_m = st.text_input('Email', text_dict["EMAIL"][0])
                 modified_w = st.text_input('Website', text_dict["WEBSITE"][0])
-                modified_a = st.text_input('Address', text_dict["ADDRESS"][0][1])
+                modified_a = st.text_input('Address', text_dict["ADDRESS"][0])
                 modified_p = st.text_input('Pincode', text_dict["PINCODE"][0])
                 concat_df["EMAIL"], concat_df["WEBSITE"], concat_df["ADDRESS"], concat_df[
                     "PINCODE"] = modified_m, modified_w, modified_a, modified_p
