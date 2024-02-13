@@ -9,7 +9,7 @@ import io
 import streamlit as st
 from streamlit_option_menu import option_menu
 import sqlite3
-from sqlalchemy import create_engine
+
 
 
 def image_to_text(path):
